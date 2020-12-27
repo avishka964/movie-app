@@ -4,9 +4,14 @@ React based movie API project
 
 API referance: https://developers.themoviedb.org/3/getting-started/introduction
 
+Env variable 
+Create a .env file in then root and add the following
+```
+REACT_APP_API_KEY = your API key
+```
 Set up for development environment
 ```
-npx create-react-app movie-app
+npm install
 cd movie-app
 npm start
 ```
